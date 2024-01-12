@@ -1,0 +1,66 @@
+.Login{
+    // font-family: 'Poppins', sans-serif;
+    background:linear-gradient(135deg,rgba(255,255,255,0.1),rgba(255,255,255,0));
+    backdrop-filter:blur(10px);
+    -webkit-backdrop-filter:blur(10px);
+    border:1px solid rgba(255,255,255,0.18);
+    box-shadow:0 8px 32px 0 rgba(0,0,0,0.37);
+    border-radius: 8px;
+    color:rgb(16, 55, 139);
+    padding:50px;
+    // padding-left: 80px;
+    // padding-right: 80px;
+    width:50%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    gap:60px;
+}
+.LoginTitle{
+    font-size:30px;
+    // font-weight: bold;
+}
+.LoginOAuth{
+    display:flex;
+    background:linear-gradient(135deg,rgba(255,255,255,0.1),rgba(255,255,255,0));
+    backdrop-filter:blur(10px);
+    -webkit-backdrop-filter:blur(10px);
+    border:1px solid rgba(255,255,255,0.18);
+    box-shadow:0 8px 32px 0 rgba(0,0,0,0.37);
+    border-radius: 8px;
+    // border: 1px solid;
+    padding:15px;
+    gap:5px;
+    width:100%;
+    justify-content: center;
+}
+.LoginContent{
+    padding:10px;
+    font-size: 18px;
+    background:linear-gradient(135deg,rgba(255,255,255,0.1),rgba(255,255,255,0));
+    backdrop-filter:blur(10px);
+    -webkit-backdrop-filter:blur(10px);
+    border:1px solid rgba(255,255,255,0.18);
+    box-shadow:0 8px 32px 0 rgba(0,0,0,0.37);
+    border-radius: 8px;
+}
+.LoginTitle_OAuth{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    gap:10px;
+    width:100%;
+}
+.icon{
+    font-size: 30px;
+}
+.LogoTitle{
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+    font-size: 22px;
+    font-weight: bold;
+}
+.handLogo{
+    color:gold;
+}

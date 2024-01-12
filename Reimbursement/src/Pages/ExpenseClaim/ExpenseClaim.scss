@@ -1,0 +1,128 @@
+.ClaimContainer{
+    display: flex;
+    flex-direction:column;
+    gap:35px;
+    padding:20px;
+    background:linear-gradient(135deg,rgba(255,255,255,0.1),rgba(255,255,255,0));
+    backdrop-filter:blur(10px);
+    -webkit-backdrop-filter:blur(10px);
+    border:1px solid rgba(255,255,255,0.18);
+    box-shadow:0 8px 32px 0 rgba(0,0,0,0.37);
+    border-radius: 8px;
+    height:100%;
+}
+.expenseTitle{
+    font-size: 25px;
+    font-weight: bold;
+}
+.claimTitle{
+    display:flex;
+    justify-content: space-between;
+}
+.Send-draft{
+    display:flex;
+}
+.Title1{
+    font-size: 25px;
+    padding-left:10px;
+    // color:black;
+    font-weight:bold;
+}
+.formTitle{
+    font-size: 20px;
+    // color:rgb(100, 100, 100);
+}
+.claimInput{
+    border:1px solid grey;
+    font-size: 16px;
+    padding:5px;
+    width:100%;
+    border-radius: 8px;;
+}
+.claimInput:focus{
+    outline: none;
+}
+.claimInput1{
+    padding:8px;
+    background-color: white;
+    font-size: 16px;
+    border-style: none;
+    border-radius: 8px;
+}
+.Detail{
+    display:flex;
+    width:98%;
+    flex-direction: column;
+    gap:30px;
+    padding:30px;
+    border-radius: 8px;
+    background-color: white;
+}
+.titleDetail{
+    display:flex;
+    flex-direction: column;
+    gap:25px;
+}
+.rows{
+    display:flex;
+    // background-color: aqua;
+    // justify-content: center;
+    gap:8%;
+}
+.claimDetails{
+    display: flex;
+    flex-direction: column;
+    gap:15px;
+    width:25%;
+    // background-color: aquamarine;
+}
+.button1{
+    // background-color: rgb(16, 171, 218);
+    // color:white;
+    // border-radius: 10px;
+    // padding:10px;
+    // width:120px;
+    // border-style: none;
+    // font-size: 18px;
+    width:100px;
+    border: 1px solid rgb(16, 55, 139);
+    height:40px;
+    font-size: 18px;
+    border-radius: 4px;
+    // border-style: none;
+    color:rgb(16, 55, 139);
+    background-color: transparent;
+}
+.button1:hover{
+    border:2px solid rgb(16, 55, 139);
+    box-shadow: 0 3px 3px 0 rgba(0,0,0,0.37);
+}
+.select_edit{
+    display:flex;
+    gap:20px;
+}
+.ClaimButton{
+    display: flex;
+    justify-content: right;
+}
+.Send-draft{
+    display: flex;
+    justify-content: center;
+    gap:50px;
+    padding-right:18px;
+}
+.totalAmt{
+    font-size: 22px;
+    font-weight: bold;
+    // color:white;
+    padding-left:10px;
+}
+.total-send{
+    display:flex;
+    justify-content: space-between;
+}
+.divDetail{
+    display:flex;
+    justify-content: center;
+    // background-color: aqua;
+}

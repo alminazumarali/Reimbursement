@@ -1,0 +1,24 @@
+.TableContainer{
+    background-color: white;
+    box-shadow:3px 3px 3px 3px rgb(156, 212, 221);
+    border-radius: 8px;
+    height:100%;
+    padding: 20px;
+
+}
+table{
+    // border:1px solid black;
+    border-collapse: collapse;
+    width: 100%;
+    // align-items: center;
+}
+td ,th{
+    // border:1px solid black;
+    padding: 20px;
+    text-align:  center;
+    border-bottom: 1px solid rgb(211, 208, 208);
+}
+.tbody{
+    // background-color: aqua;
+    padding:10px;
+}

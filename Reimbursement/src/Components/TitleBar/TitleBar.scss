@@ -1,0 +1,30 @@
+.TitleBarContainer{
+    font-size: 18px;
+    height:100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.titleBar{
+    // padding:10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    // background-color: white;
+    border-radius: 8px;
+}
+.TitleDetails{
+    display:flex;
+    gap:20px;
+    align-items: center;
+}
+.ProfilePhoto{
+    width:70px;
+    height:70px;
+    border-radius: 50%;
+}
+.notification{
+    border-style: none;
+    background: transparent;
+    font-size: 22px;
+}

@@ -1,0 +1,33 @@
+.Login-Dashboard{
+    // background-image:url('../../Assets/Images/bg6.jpg');
+    background-color: white;
+    color:rgb(16, 55, 139);
+    height:100vh;
+    display:flex;
+    flex-direction:row;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.LoginContainer{
+    // height:80vh;
+    flex:1;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    // background-color: aqua;
+    height:100%;
+}
+.DivumLogo{
+    display:flex;
+    justify-content: center;
+}
+.pngImage{
+    height:67%;
+}
+.pngContainer{
+    height: 100%;
+    width: 50%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
